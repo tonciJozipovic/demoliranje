@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: #333;
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: tomato;
+    border-bottom: 1px solid white;
+}
+  
+.navbar a.active {
+    background-color: tomato;
+}
+  
+/* Mobile Support */
+  
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+}
+
+/* DEMOLIRANJE LOGO */
+
+h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 3rem;
+}
+
+.demo {
+    color: tomato;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.com {
+    color: tomato;
+    font-size: 20px;
+}
+
+/* Main Container */
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+/* Search Bar */
+
+.filter-input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    height: 45px;
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* Alphabet Test */
+
+.letterContainer {
+    float: left;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-left: 7px;
+    border: 5px solid orange;
+}
+
+.a,
+.b,
+.c,
+.ć,
+.č,
+.d,
+.đ,
+.dž,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.lj,
+.m,
+.n,
+.o,
+.p,
+.r,
+.s,
+.š,
+.t,
+.u,
+.v,
+.z,
+.ž {
+    font-size: 17px;
+    border:  1px solid tomato;
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    float: left;
+    display: inline;
+    background-color: #333;
+    color: white;
+    
+    
+}
+
+.a:hover,
+.b:hover,
+.c:hover,
+.ć:hover,
+.č:hover,
+.d:hover,
+.đ:hover,
+.dž:hover,
+.e:hover,
+.f:hover,
+.g:hover,
+.h:hover,
+.i:hover,
+.j:hover,
+.k:hover,
+.l:hover,
+.lj:hover,
+.m:hover,
+.n:hover,
+.o:hover,
+.p:hover,
+.r:hover,
+.s:hover,
+.š:hover,
+.t:hover,
+.u:hover,
+.v:hover,
+.z:hover,
+.ž:hover {
+    background-color: tomato;
+    
+}
+
+@media screen and (max-width: 500px) {
+.a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+}
+
+/* Header */
+
+
+
+/* Letter For Easyer Navigation */
+
+.letter {
+    font-size: 50px;
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+/* This Code Needs Testing */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+   
+}
+th, td{
+    text-align: center;
+    width: 20%; 
+    border-bottom: 2px solid tomato;
+}
+
+th, td{
+    text-align: center;
+    
+}
+
+/* Custom Testing Code */
+
+tr:nth-child(odd){
+ background-color: #555;
+}
+
+
+/* Download / play buttons */
+img {
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+/* Back To Top Button */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: tomato; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
