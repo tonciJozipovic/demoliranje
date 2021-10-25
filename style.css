@@ -203,4 +203,5 @@ img {
 
 .btnDownload:hover {
     background-color: lightblue;
+    font-size:12px;
 }
