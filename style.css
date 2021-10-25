@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +7,13 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     height: 100vh;
     background: #333;
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    
 }
 
 /* NAVIGATION BAR */
@@ -74,7 +77,7 @@ h1{
 /* Main Container */
 
 .container{
-    max-width: 90%;
+    max-width: 75%;
     margin: 0 auto;
     padding: 2rem;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
@@ -116,18 +119,21 @@ table{
     border-collapse: collapse;
     width: 100%;
     table-layout: fixed;
+    
    
 }
 th, td{
     text-align: center;
     width: 20%; 
     border-bottom: 2px solid tomato;
+   
 }
 
 th, td{
     text-align: center;
-    
+    width: 10px;
 }
+
 
 /* Custom Testing Code */
 
@@ -166,3 +172,35 @@ img {
   #myBtn:hover {
     background-color: #555; 
   }
+
+
+  .down {
+      table-layout: fixed;
+      width: 20px
+  }
+
+  .download {
+      table-layout:fixed;
+      width: 20px;
+  }
+
+ /* test code */
+
+#myTable tr:hover {
+    background-color: tomato;
+}
+
+.btnDownload {
+    width: 50%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.btnDownload:hover {
+    background-color: lightblue;
+}

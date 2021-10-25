@@ -1,6 +1,6 @@
 /* Search */
 
-const myFunction = () => {
+const searchFunction = () => {
   const trs = document.querySelectorAll('#myTable tr:not(.header)');
   const filter = document.querySelector('#myInput').value;
   const regex = new RegExp(filter, 'i');
